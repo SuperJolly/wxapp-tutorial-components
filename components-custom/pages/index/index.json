@@ -1,7 +1,0 @@
-{
-    "usingComponents": {
-        "component-test": "/components/test/index",
-        "component-test-slot": "/components/testSlot/index",
-        "component-test-multislot": "/components/testMultiSlot/index"
-    }
-}

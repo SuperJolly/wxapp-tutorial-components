@@ -1,8 +1,0 @@
-.section {
-    padding: 10px;
-    border: 1px solid gray;
-    margin: 15px auto;
-}
-.title {
-    color: coral;
-}
