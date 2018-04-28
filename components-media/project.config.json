@@ -1,0 +1,52 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "wxda2e6c05f478b8ee",
+	"projectname": "%E7%BB%84%E4%BB%B6-%E5%AA%92%E4%BD%93%E7%BB%84%E4%BB%B6",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "image",
+					"pathName": "pages/image/image",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "pages/video/video",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "camera",
+					"pathName": "pages/camera/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}

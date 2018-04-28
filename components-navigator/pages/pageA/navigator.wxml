@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="page-body">
+    <view class="btn-area">
+      <navigator url="../pageB/navigate?title=navigate" hover-class="navigator-hover">
+        <button type="default">跳转到新页面</button>
+      </navigator>
+      <navigator url="../pageC/redirect?title=redirect" redirect hover-class="other-navigator-hover">
+        <button type="default">在当前页打开</button>
+      </navigator>
+      <navigator url="../pageD/pageD" open-type="switchTab">
+        <button type="default">切换tab页面</button>
+      </navigator>
+      <navigator url="/pages/pageA/navigator" open-type="reLaunch">
+        <button type="default">重加载页面</button>
+      </navigator>
+    </view>
+  </view>
+</view>

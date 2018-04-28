@@ -1,0 +1,98 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "wxda2e6c05f478b8ee",
+	"projectname": "%E7%BB%84%E4%BB%B6-%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": -1,
+					"name": "picker",
+					"pathName": "pages/picker/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "checkbox",
+					"pathName": "pages/checkbox/checkbox",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "input",
+					"pathName": "pages/input/input",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "label",
+					"pathName": "pages/label/label",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "form",
+					"pathName": "pages/form/form",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "radio",
+					"pathName": "pages/radio/radio",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "slider",
+					"pathName": "pages/slider/slider",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "switch",
+					"pathName": "pages/switch/switch",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "textarea",
+					"pathName": "pages/textarea/textarea",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "picker-view",
+					"pathName": "pages/picker-view/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}

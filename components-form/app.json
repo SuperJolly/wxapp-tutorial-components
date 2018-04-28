@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/button/index",
+    "pages/picker/index",
+    "pages/checkbox/checkbox",
+    "pages/input/input",
+    "pages/label/label",
+    "pages/picker-view/index",
+    "pages/form/form",
+    "pages/radio/radio",
+    "pages/slider/slider",
+    "pages/switch/switch",
+    "pages/textarea/textarea"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

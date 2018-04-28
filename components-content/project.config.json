@@ -1,0 +1,56 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "wxda2e6c05f478b8ee",
+	"projectname": "%E7%BB%84%E4%BB%B6-%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "text",
+					"pathName": "pages/text/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "richtext",
+					"pathName": "pages/richtext/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "progress",
+					"pathName": "pages/progress/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}

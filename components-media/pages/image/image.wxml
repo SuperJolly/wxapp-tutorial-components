@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <view class="page-section-title">Local Image</view>
+      <view class="page-section-ctn">
+        <image class="image" bindload="loadImage" src="../../resources/pic/1.jpg"/>
+      </view>
+    </view>
+  </view>
+</view>

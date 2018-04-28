@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <view class="body-view">
+        <switch checked type="checkbox" color="red" bindchange="switchChange" />
+      </view>
+    </view>
+  </view>
+</view>

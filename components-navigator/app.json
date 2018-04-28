@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/pageA/navigator",
+        "pages/pageB/navigate",
+        "pages/pageC/redirect",
+        "pages/pageD/pageD"
+    ],
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/pageA/navigator",
+                "text": "页面A"
+            },
+            {
+                "pagePath": "pages/pageD/pageD",
+                "text": "页面D"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    }
+}

@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "/* write your appid */",
+	"projectname": "%E7%BB%84%E4%BB%B6-%E8%A7%86%E5%9B%BE",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "movable-view组件",
+					"pathName": "pages/movable/index",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "cover-view组件",
+					"pathName": "pages/cover/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "swiper组件",
+					"pathName": "pages/swiper/swiper",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "scroll-view组件",
+					"pathName": "pages/scroll-view/scrollview",
+					"query": ""
+				}
+			]
+		}
+	}
+}

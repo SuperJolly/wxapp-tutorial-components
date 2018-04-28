@@ -1,0 +1,22 @@
+@import '../../common/weui.wxss';
+@import '../../common/common.wxss';
+
+/** view **/
+.view-parent-container {
+    width: 300rpx;
+    height: 300rpx;
+    background: yellowgreen;
+}
+.hover-parent-container {
+    background: #fff;
+}
+.view-container {
+    width: 200rpx;
+    height: 200rpx;
+    background: chocolate;
+    /* transition: all .5s; */
+}
+.hover-container {
+    background: rgba(0,0,0,0.7)
+}
+

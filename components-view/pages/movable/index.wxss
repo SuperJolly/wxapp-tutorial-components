@@ -1,0 +1,6 @@
+/** index.wxss **/
+@import '../../common/common.wxss';
+.btn-area {
+    width: 590rpx;
+    margin: 12rpx auto 0;
+}

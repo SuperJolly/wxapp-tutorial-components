@@ -1,0 +1,4 @@
+/** index.wxss **/
+.block {
+    margin: 10px auto;
+}

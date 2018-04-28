@@ -1,0 +1,35 @@
+@import '../../common/weui.wxss';
+@import '../../common/common.wxss';
+
+/** scroll-view **/
+.scroll-view-item {
+    width: 600rpx;
+    margin: 0 auto;
+    height: 200px;
+}
+.scroll-view-item.bc_green,
+.scroll-view-item_H.bc_green {
+    background: green;
+}
+.scroll-view-item.bc_red,
+.scroll-view-item_H.bc_red {
+    background: red;
+}
+.scroll-view-item.bc_yellow,
+.scroll-view-item_H.bc_yellow {
+    background: yellow;
+}
+.scroll-view-item.bc_blue,
+.scroll-view-item_H.bc_blue {
+    background: blue;
+}
+.scroll-view_H {
+    height: 200px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}

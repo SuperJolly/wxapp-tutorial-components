@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="textarea-wrp">
+        <textarea bindblur="bindTextAreaBlur" auto-height />
+      </view>
+    </view>
+  </view>
+</view>

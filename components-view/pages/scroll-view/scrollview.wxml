@@ -1,0 +1,35 @@
+<!--scorllview.wxml-->
+<view>scroll-view组件</view>
+<view class="section">
+    <view class="section__title">竖向滚动</view>
+    <scroll-view style="height: 200px;" 
+        scroll-y
+        bindscrolltoupper="upper" 
+        bindscrolltolower="lower" 
+        bindscroll="scroll" 
+        scroll-into-view="{{toView}}"
+        scroll-top="{{scrollTop}}" 
+        enable-back-to-top="true" 
+        scroll-with-animation="true">
+
+        <view id="green" class="scroll-view-item bc_green"></view>
+        <view id="red" class="scroll-view-item bc_red"></view>
+        <view id="yellow" class="scroll-view-item bc_yellow"></view>
+        <view id="blue" class="scroll-view-item bc_blue"></view>
+    </scroll-view>
+
+    <view class="btn-area">
+        <button size="mini" bindtap="tap">click me to scroll into view </button>
+        <button size="mini" bindtap="tapMove">click me to scroll</button>
+    </view>
+</view>
+<view class="section">
+    <view class="section__title">横向滚动</view>
+    <scroll-view class="scroll-view_H" 
+    scroll-x >
+        <view id="green" class="scroll-view-item_H bc_green"></view>
+        <view id="red" class="scroll-view-item_H bc_red"></view>
+        <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+        <view id="blue" class="scroll-view-item_H bc_blue"></view>
+    </scroll-view>
+</view>

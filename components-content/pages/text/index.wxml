@@ -1,0 +1,6 @@
+<!-- index.wxml -->
+<view class="btn-area">
+    <view class="body-view">
+        <text selectable="true" space="emsp" decode="true">{{text}}</text>
+    </view>
+</view>

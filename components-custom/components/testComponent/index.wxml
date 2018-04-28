@@ -1,0 +1,5 @@
+<view>
+    自定义组件内部节点
+</view>
+<view>{{text}}</view>
+<slot></slot>

@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="section">
+    <view class="section__title">movable-view区域小于movable-area</view>
+    <movable-area style="height: 200px; width: 200px; background: red;margin: 0 auto;">
+        <movable-view 
+            style="height: 50px; width: 50px; background: blue;" 
+            x="{{x}}" 
+            y="{{y}}" 
+            direction="all" 
+            inertia="true"
+            >
+        </movable-view>
+    </movable-area>
+    <view class="btn-area">
+        <button size="mini" bindtap="tap">click me to move to (30px, 30px)</button>
+    </view>
+    <view class="section__title">movable-view区域大于movable-area</view>
+    <movable-area style="height: 50px; width: 50px; background: red;margin:0 auto 200px;">
+        <movable-view 
+            style="height: 140px; width: 140px; background: blue;" 
+            direction="all">
+        </movable-view>
+    </movable-area>
+    <view class="section__title">可缩放</view>
+    <movable-area style="height: 200px; width: 200px; background: red;margin: 0 auto;" scale-area>
+        <movable-view 
+            style="height: 50px; width: 50px; background: blue;" 
+            direction="all" 
+            bindchange="onChange" 
+            bindscale="onScale"
+            scale 
+            scale-min="0.5" 
+            scale-max="4" 
+            scale-value="2">
+        </movable-view>
+    </movable-area>
+</view>
